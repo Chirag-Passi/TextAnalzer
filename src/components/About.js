@@ -26,7 +26,7 @@ export default function About() {
   };
 
   return (
-    <div className="container my-4" style={myStyle}>
+    <div className="container my-4 rounded-4" style={myStyle}>
       <h1> About Us. </h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
@@ -126,7 +126,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="my-4">
+      <div className="my-4 pb-3">
         <button onClick={toggleStyle} type="button" className="btn btn-primary">
           {btntext}
         </button>
